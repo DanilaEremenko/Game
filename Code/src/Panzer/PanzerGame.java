@@ -15,7 +15,7 @@ public class PanzerGame extends Application {
     public void start(Stage primaryStage) throws Exception {
 
 
-        myLevel=new Levels("Code\\src\\LevelOne.txt");
+        myLevel=new Levels("Code\\src\\LevelTwo.txt");
 
 
         primaryStage.setScene(myLevel.getMenu());

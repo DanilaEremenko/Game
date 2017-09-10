@@ -23,11 +23,11 @@ public class Panzer extends Pane {
 
 
     public Panzer(Color color, int X, int Y,Levels level) {
-        Rectangle gun = new Rectangle(wG, hG, Color.BLACK);
+//        Rectangle gun = new Rectangle(wG, hG, Color.BLACK);
         Rectangle body = new Rectangle(wB, hB, color);
-        gun.setTranslateX(body.getTranslateX() + wB);
-        gun.setTranslateY(body.getTranslateY() + (wB - hG) / 2);
-        getChildren().addAll(body, gun);
+//        gun.setTranslateX(body.getTranslateX() + wB);
+//        gun.setTranslateY(body.getTranslateY() + (wB - hG) / 2);
+        getChildren().addAll(body);
         setTranslateX(X);
         setTranslateY(Y);
         setScaleY(scaley);
